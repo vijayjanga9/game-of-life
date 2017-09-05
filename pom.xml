@@ -494,4 +494,20 @@
             </reporting>
         </profile>
     </profiles>
+    <repositories>
+        <repository>
+          <id>GameGroupRepo</id>
+          <url>http://104.155.138.54:8081/nexus/content/groups/GameGroupRepo/</url>
+        </repository>
+   </repositories>
+   <distributionManagement>
+        <snapshotRepository>
+            <id>GameSnapRepo</id>
+            <url>http://104.155.138.54:8081/nexus/content/repositories/GameSnapRepo/</url>
+        </snapshotRepository>
+        <repository>
+            <id>GameReleaseRepo</id>
+            <url>http://104.155.138.54:8081/nexus/content/repositories/GameReleaseRepo/</url>
+        </repository>
+</distributionManagement>
 </project>
